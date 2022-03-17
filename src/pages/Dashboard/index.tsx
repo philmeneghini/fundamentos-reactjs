@@ -36,6 +36,10 @@ const Dashboard: React.FC = () => {
   useEffect(() => {
     async function loadTransactions(): Promise<void> {
       // TODO
+      // localStorage.setItem(
+      //   '@GithubExplorer:repositories',
+      //   JSON.stringify(repositories),
+      // );
     }
 
     loadTransactions();
